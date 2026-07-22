@@ -73,6 +73,20 @@ p { margin-bottom: 1.2em; color: var(--text-muted); }
 
 #sidebar .inner {
   padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.logo {
+  height: 2.2em;
+  width: auto;
+}
+
+.logo-grande {
+  height: 6em;
+  width: auto;
+  margin-bottom: 0.8em;
 }
 
 #sidebar nav ul {
