@@ -11,6 +11,11 @@
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
+					<button id="menu-toggle" class="hamburger-toggle" aria-label="Abrir menú">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 					<nav>
 						<ul>
 							<li><a href="#intro">Nuestro Servicio</a></li>
@@ -41,112 +46,85 @@
 						<p>El área de un cuadrado es la medida de su superficie interior. Se calcula multiplicando la longitud de un lado por sí misma</p>
 						<div class="split style1">
 							<section>
-								<form method="post" action="#">
+								<form id="form-cuadrado">
 									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
 										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
+											<label for="lado-cuadrado">Lado</label>
+											<input type="number" step="any" name="lado" id="lado-cuadrado" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
+										<li><button type="button" id="btn-cuadrado" class="button">Calcular Área</button></li>
 									</ul>
+									<p id="resultado-cuadrado" class="resultado"></p>
 								</form>
 							</section>
 				</section>
-
-
-				<!-- Triangulo -->
 				<section id="Triangulo" class="wrapper style1 fade-up">
 					<div class="inner">
 						<h2>Triangulo</h2>
 						<p>El área de un triángulo se calcula multiplicando la base por la altura y dividiendo el resultado entre 2</p>
 						<div class="split style1">
 							<section>
-								<form method="post" action="#">
+								<form id="form-triangulo">
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<label for="base-triangulo">Base</label>
+											<input type="number" step="any" name="base" id="base-triangulo" />
 										</div>
 										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
+											<label for="altura-triangulo">Altura</label>
+											<input type="number" step="any" name="altura" id="altura-triangulo" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
+										<li><button type="button" id="btn-triangulo" class="button">Calcular Área</button></li>
 									</ul>
+									<p id="resultado-triangulo" class="resultado"></p>
 								</form>
 							</section>
 				</section>
-
-				<!-- Circulo -->
 				<section id="Circulo" class="wrapper style1 fade-up">
 					<div class="inner">
 						<h2>Circulo</h2>
-						<p>El área de un círculo es la medida de la superficie que abarca su interior. Se calcula usando la fórmula:\(A = \pi \times r^2\)</p>
+						<p>El área de un círculo es la medida de la superficie que abarca su interior. Se calcula usando la fórmula: A = π x r^2</p>
 						<div class="split style1">
 							<section>
-								<form method="post" action="#">
+								<form id="form-circulo">
 									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
 										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
+											<label for="radio-circulo">Radio</label>
+											<input type="number" step="any" name="radio" id="radio-circulo" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
+										<li><button type="button" id="btn-circulo" class="button">Calcular Área</button></li>
 									</ul>
+									<p id="resultado-circulo" class="resultado"></p>
 								</form>
 							</section>
 				</section>
-								
-				<!-- Cubo -->
 				<section id="Cubo" class="wrapper style1 fade-up">
 					<div class="inner">
 						<h2>Cubo</h2>
 						<p>El área de un rombo se calcula multiplicando las longitudes de sus dos diagonales y dividiendo el resultado entre 2.</p>
 						<div class="split style1">
 							<section>
-								<form method="post" action="#">
+								<form id="form-rombo">
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<label for="diagonal1-rombo">Diagonal 1</label>
+											<input type="number" step="any" name="diagonal1" id="diagonal1-rombo" />
 										</div>
 										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
+											<label for="diagonal2-rombo">Diagonal 2</label>
+											<input type="number" step="any" name="diagonal2" id="diagonal2-rombo" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
+										<li><button type="button" id="btn-rombo" class="button">Calcular Área</button></li>
 									</ul>
+									<p id="resultado-rombo" class="resultado"></p>
 								</form>
 							</section>
 				</section>				
@@ -161,7 +139,7 @@
 				</div>
 			</footer>
 
-			<script src=""></script>
+			<script src="./assets/js/geometrix.js"></script>
 
 	</body>
 </html>
