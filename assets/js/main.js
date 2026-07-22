@@ -1,4 +1,4 @@
-// ---------- 1) Menú móvil ----------
+//1) Menú celular
 
 const menuToggle = document.getElementById('menuBtn');
 const sidebar = document.getElementById('sidebar');
@@ -7,7 +7,7 @@ menuToggle.addEventListener('click', function () {
   sidebar.classList.toggle('active');
 });
 
-// ---------- 2) Calculadoras ----------
+//2) Calculadoras
 
 // Cuadrado: área = lado * lado
 document.getElementById('calcularCuadrado').addEventListener('click', function () {

@@ -53,9 +53,7 @@ h2 { font-size: 1.8em; }
 
 p { margin-bottom: 1.2em; color: var(--text-muted); }
 
-/* ========================================================
-   Layout general: sidebar fija + contenido
-   ======================================================== */
+/*Layout general: sidebar fija + contenido*/
 
 #wrapper {
   display: flex;
@@ -139,9 +137,7 @@ p { margin-bottom: 1.2em; color: var(--text-muted); }
   justify-content: center;
 }
 
-/* ========================================================
-   Formularios / calculadoras
-   ======================================================== */
+/*Formularios / calculadoras*/
 
 .field {
   margin-bottom: 1.2em;
@@ -204,9 +200,7 @@ ul.actions {
   margin-top: 1em;
 }
 
-/* ========================================================
-   Footer
-   ======================================================== */
+/*Footer*/
 
 #footer {
   background: var(--bg-alt);
@@ -245,10 +239,7 @@ ul.actions {
   display: block;
 }
 
-/* ========================================================
-   Responsive: en pantallas chicas, la sidebar pasa a ser
-   una barra horizontal arriba del contenido.
-   ======================================================== */
+/*Responsive*/
 
 @media screen and (max-width: 736px) {
   .hamburger-toggle {
