@@ -4,14 +4,14 @@
 		<title>Geometrix</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="./assets/css/main.css" />
+		<link rel="stylesheet" href="./assets/css/main.css">
 	</head>
 	<body class="body">
 
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
-					<button id="menu-toggle" class="hamburger-toggle" aria-label="Abrir menú">
+					<button id="menuBtn" class="hamburger-toggle" aria-label="Abrir menú">
 						<span></span>
 						<span></span>
 						<span></span>
@@ -49,14 +49,14 @@
 								<form id="form-cuadrado">
 									<div class="fields">
 										<div class="field">
-											<label for="lado-cuadrado">Lado</label>
-											<input type="number" step="any" name="lado" id="lado-cuadrado" />
+											<label for="lado">Lado</label>
+											<input type="number" step="any" name="lado" id="lado" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><button type="button" id="btn-cuadrado" class="button">Calcular Área</button></li>
+										<li><button type="button" id="calcularCuadrado" class="button">Calcular Área</button></li>
 									</ul>
-									<p id="resultado-cuadrado" class="resultado"></p>
+									<p id="resultadoCuadrado" class="resultado"></p>
 								</form>
 							</section>
 				</section>
@@ -69,18 +69,18 @@
 								<form id="form-triangulo">
 									<div class="fields">
 										<div class="field half">
-											<label for="base-triangulo">Base</label>
-											<input type="number" step="any" name="base" id="base-triangulo" />
+											<label for="base">Base</label>
+											<input type="number" step="any" name="base" id="base" />
 										</div>
 										<div class="field half">
-											<label for="altura-triangulo">Altura</label>
-											<input type="number" step="any" name="altura" id="altura-triangulo" />
+											<label for="altura">Altura</label>
+											<input type="number" step="any" name="altura" id="altura" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><button type="button" id="btn-triangulo" class="button">Calcular Área</button></li>
+										<li><button type="button" id="calcularTriangulo" class="button">Calcular Área</button></li>
 									</ul>
-									<p id="resultado-triangulo" class="resultado"></p>
+									<p id="resultadoTriangulo" class="resultado"></p>
 								</form>
 							</section>
 				</section>
@@ -93,14 +93,14 @@
 								<form id="form-circulo">
 									<div class="fields">
 										<div class="field">
-											<label for="radio-circulo">Radio</label>
-											<input type="number" step="any" name="radio" id="radio-circulo" />
+											<label for="radio">Radio</label>
+											<input type="number" step="any" name="radio" id="radio" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><button type="button" id="btn-circulo" class="button">Calcular Área</button></li>
+										<li><button type="button" id="calcularCirculo" class="button">Calcular Área</button></li>
 									</ul>
-									<p id="resultado-circulo" class="resultado"></p>
+									<p id="resultadoCirculo" class="resultado"></p>
 								</form>
 							</section>
 				</section>
@@ -113,18 +113,18 @@
 								<form id="form-rombo">
 									<div class="fields">
 										<div class="field half">
-											<label for="diagonal1-rombo">Diagonal 1</label>
-											<input type="number" step="any" name="diagonal1" id="diagonal1-rombo" />
+											<label for="diagonal1">Diagonal 1</label>
+											<input type="number" step="any" name="diagonal1" id="diagonal1" />
 										</div>
 										<div class="field half">
-											<label for="diagonal2-rombo">Diagonal 2</label>
-											<input type="number" step="any" name="diagonal2" id="diagonal2-rombo" />
+											<label for="diagonal2">Diagonal 2</label>
+											<input type="number" step="any" name="diagonal2" id="diagonal2" />
 										</div>
 									</div>
 									<ul class="actions">
-										<li><button type="button" id="btn-rombo" class="button">Calcular Área</button></li>
+										<li><button type="button" id="calcularRombo" class="button">Calcular Área</button></li>
 									</ul>
-									<p id="resultado-rombo" class="resultado"></p>
+									<p id="resultadoRombo" class="resultado"></p>
 								</form>
 							</section>
 				</section>				
@@ -139,7 +139,7 @@
 				</div>
 			</footer>
 
-			<script src="./assets/js/geometrix.js"></script>
+			<script src="./assets/js/main.js"></script>
 
 	</body>
 </html>

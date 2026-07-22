@@ -244,7 +244,7 @@ ul.actions {
     padding-top: 1em;
   }
 
-  #sidebar.menu-abierto nav ul {
+  #sidebar.active nav ul {
     display: flex;
   }
 
