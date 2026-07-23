@@ -7,10 +7,10 @@
   --surface: #10150f;      /* tarjetas / formularios */
   --primary: #1f9d63;      /* verde esmeralda - color de marca */
   --secondary: #3ee6a8;    /* verde menta - resultados / detalles */
-  --accent: #8fd14f;       /* verde lima - botones de acción */
+  --accent: #8fd14f;       /* verde lima - botones de accion */
   --text: #f2f5f3;         /* texto principal */
   --text-muted: rgba(242, 245, 243, 0.6); /* texto secundario */
-  --border: rgba(143, 209, 79, 0.15);     /* líneas y bordes sutiles */
+  --border: rgba(143, 209, 79, 0.15);     /* lineas y bordes sutiles */
 
   /* Tipografía */
   --font: 'Poppins', sans-serif;
@@ -176,7 +176,7 @@ input:focus, textarea:focus {
   border-color: var(--primary);
 }
 
-/* Botón de acción */
+/* Boton de accion */
 .button {
   display: inline-block;
   padding: 0.9em 2.2em;
@@ -221,7 +221,7 @@ ul.actions {
   margin-top: 1em;
 }
 
-/* Botón hamburguesa (solo visible en pantallas pequeñas) */
+/* Boton hamburguesa (solo visible en pantallas Chicas) */
 .hamburger-toggle {
   display: none;
   flex-direction: column;
